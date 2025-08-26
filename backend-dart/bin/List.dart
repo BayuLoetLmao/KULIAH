@@ -10,4 +10,5 @@ void main(List<String>args){
   buah.addAll(['semangka','durian']);
   print(buah.indexOf(buah[0] = 'apel'));
   print(buah);
+
 }
