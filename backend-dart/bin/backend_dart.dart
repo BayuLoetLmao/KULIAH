@@ -1,5 +1,9 @@
-import 'package:backend_dart/backend_dart.dart' as backend_dart;
+void main(){
+  int number = 20;
 
-void main(List<String> arguments) {
-  print('Hello world: ${backend_dart.calculate()}!');
+  double pecahan = 20.5;
+
+  print (number);
+
+  print (pecahan);
 }
