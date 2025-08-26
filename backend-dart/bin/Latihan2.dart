@@ -1,7 +1,18 @@
+import 'dart:io';
+
 void main(){
 
-  double Panjang = 10;
-  double Lebar = 5;
+  double? Panjang;
+  double? Lebar;
+
+  stdout.write("Masukkan panjang: ");
+
+  Panjang = double.parse(stdin.readLineSync()!);
+
+  stdout.write("Masukkan Lebar: ");
+
+  Lebar = double.parse(stdin.readLineSync()!);
+
   double Luas = Panjang * Lebar;
 
   double panjangKeliling = 2 * (Panjang + Lebar);
