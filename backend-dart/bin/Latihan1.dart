@@ -6,9 +6,9 @@ void main(){
 
   double height = 171;
 
-  num NPM = 07352311029;
+  num beratBadan = 70;
 
-  dynamic prodi = "sasa";
+  dynamic prodi = "informatika";
 
   bool isActive = true;
 
@@ -18,9 +18,9 @@ void main(){
 
   print("tinggi saya : $height cm");
 
-  print("NPM saya adalah : $NPM");
+  print("berat badan saya adalah : $beratBadan");
 
-  print("alamat saya adalah di : $prodi");
+  print("jurusan saya adalah : $prodi");
 
   print("apakah mahasiswa ini aktif : $isActive");
 }
