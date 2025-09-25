@@ -1,9 +1,5 @@
-void main(){
-
-  String message = "selamat datang";
-
-  for (int i = 1; 1 <= 1000; i++){
-    print(message);
+void main() {
+  for (int i = 0; i <= 10; i++) {
+    print("Selamat datang");
   }
-
 }
